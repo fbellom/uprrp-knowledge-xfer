@@ -98,3 +98,23 @@ Let's review each command
 After the execution, you can use curl again to test the application.
 
 That's all.
+
+## Extra
+
+You can create an auxiliary Makefile to simplify the cli command input
+
+```Makefile
+build:
+	@echo "Building New Image"
+	docker build -t my-node-app:latest .
+
+run:
+	@echo "Runing demo Container"
+	docker run -p 3000:3000 --rm my-node-app
+
+destroy:
+	@echo "Destroy demo Image"
+	docker image rm my-node-app
+```
+
+to use it just try `make build`, `make run` and `make destroy`.
