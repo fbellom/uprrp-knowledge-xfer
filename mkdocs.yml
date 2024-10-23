@@ -1,0 +1,19 @@
+site_name: UPRRP Knowledge Transfer
+theme:
+  name: material
+  logo: assets/ccom_logo.png
+  palette:
+    primary: white
+    accent: black
+  font:
+    text: Roboto
+    code: Roboto Mono
+  feature:
+    tabs: true
+nav:
+  - Overview:
+      - About: overview/overview.md
+      - Getting Started: overview/getting_started.md
+
+plugins:
+  - search
