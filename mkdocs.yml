@@ -14,6 +14,7 @@ nav:
   - Overview:
       - About: overview/overview.md
       - Getting Started: overview/getting_started.md
-
+  - Demos:
+      - NodeJS in Docker: demos/nodeapp.md
 plugins:
   - search

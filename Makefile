@@ -6,8 +6,8 @@ build:
 
 run:
 	@echo "Runing kxfer Container"
-	docker run -p 8000:8000 kxfer -n kxfer
+	docker run -p 8000:8000 --rm --name kxfer
 
 destroy:
-	docker rm kxfer
+	@echo "Runing kxfer Container"
 	docker image rm kxfer
