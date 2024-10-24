@@ -17,5 +17,6 @@ nav:
   - Demos:
       - NodeJS in Docker: demos/nodeapp.md
       - Go App compile with Multi-Stage Dockerfile: demos/golangapp.md
+      - Running several Containers with Docker compose: demos/composeapp.md
 plugins:
   - search
