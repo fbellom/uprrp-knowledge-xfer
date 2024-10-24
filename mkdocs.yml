@@ -1,4 +1,4 @@
-site_name: UPRRP Knowledge Transfer
+site_name: UKnowXChange
 theme:
   name: material
   logo: assets/ccom_logo.png
@@ -13,8 +13,9 @@ theme:
 nav:
   - Overview:
       - About: overview/overview.md
-      - Getting Started: overview/getting_started.md
+      - Getting Started with Docker: overview/getting_started.md
   - Demos:
       - NodeJS in Docker: demos/nodeapp.md
+      - Go App compile with Multi-Stage Dockerfile: demos/golangapp.md
 plugins:
   - search

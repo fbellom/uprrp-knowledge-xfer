@@ -19,7 +19,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req,res) => {
-    res.send('Hello from Knowledge Transfer');
+    res.send('Hello from UKnowXChange');
 });
 
 app.listen(port, () => {
@@ -90,10 +90,10 @@ Use the `docker run -p 3000:3000 --rm --name my-app my-node-app`
 
 Let's review each command
 
-- docker run: will start a new instance of the conatiner image.
-- p HOST:CONTAINER: is the port Host will use to allow access from outside world to container
-- rm: is to make the container ephimeral, so when you stop it, it will be destroyed
-- name: is to assign a meaninful name to the instance
+- **docker run**: will start a new instance of the conatiner image.
+- **p HOST:CONTAINER**: is the port Host will use to allow access from outside world to container
+- **rm**: is to make the container ephimeral, so when you stop it, it will be destroyed
+- **name**: is to assign a meaninful name to the instance
 
 After the execution, you can use curl again to test the application.
 
