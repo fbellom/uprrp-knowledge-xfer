@@ -6,8 +6,16 @@ build:
 
 run:
 	@echo "Runing kxfer Container"
-	docker run -d -p 8000:8000 --rm kxfer
+	docker run -d -p 8000:8000 --rm --name uknow  kxfer
 
 destroy:
 	@echo "Runing kxfer Container"
+	docker stop uknow
 	docker image rm kxfer
+
+rebuild:
+	@echo "Restart the service"
+	docker stop uknow
+	docker rmi kxfer
+	docker build -t kxfer:latest .
+	docker run -d -p 8000:8000 --rm --name uknow  kxfer
