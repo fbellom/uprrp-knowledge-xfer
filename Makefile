@@ -16,6 +16,6 @@ destroy:
 rebuild:
 	@echo "Restart the service"
 	docker stop uknow
-	docker rmi kxfer
+	docker image rm kxfer
 	docker build -t kxfer:latest .
 	docker run -d -p 8000:8000 --rm --name uknow  kxfer
