@@ -6,7 +6,7 @@ But code is complicated. The development of code is not linear — often edits a
 
 _**git**_ saves your project as a sequence of edits to your code base rather than a set of file contents.
 
-![Git Cartoon](../assets/GitToon.png)
+<img src="../assets/GitToon.png" width=200>
 
 ## Git Benefits
 
