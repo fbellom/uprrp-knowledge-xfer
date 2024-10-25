@@ -14,6 +14,7 @@ nav:
   - Overview:
       - About: overview/overview.md
       - Getting Started with Docker: overview/getting_started.md
+      - Getting Started with Git: overview/getting_started_with_git.md
   - Demos:
       - NodeJS in Docker: demos/nodeapp.md
       - Go App compile with Multi-Stage Dockerfile: demos/golangapp.md
