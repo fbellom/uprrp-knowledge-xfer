@@ -17,6 +17,7 @@ _**git**_ saves your project as a sequence of edits to your code base rather tha
 The git workflow will use a common set of commands very often, so this is a summary:
 
 - `git init` : Create a Git Version Control Repo
+- `git status`: Check the changes in the folder
 - `git add`: Staging a File
 - `git commit`: Make your changes (semi)permanent.
 - `git pull/git fetch`: receive updates

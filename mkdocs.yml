@@ -1,4 +1,5 @@
 site_name: UKnowXChange
+repo_url: https://github.com/fbellom/uprrp-knowledge-xfer
 theme:
   name: material
   logo: assets/ccom_logo.png
@@ -11,6 +12,7 @@ theme:
   feature:
     tabs: true
 nav:
+  - index.md
   - Overview:
       - About: overview/overview.md
       - Getting Started with Docker: overview/getting_started.md
