@@ -1,4 +1,4 @@
-.PHONY: build
+.PHONY: build run destroy rebuild
 
 build:
 	@echo "Building New Image"
@@ -10,7 +10,6 @@ run:
 
 destroy:
 	@echo "Runing kxfer Container"
-	docker stop uknow
 	docker image rm kxfer
 
 rebuild:
