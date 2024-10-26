@@ -14,16 +14,16 @@ The application is extremely simple, the goal is not to discuss about Node here,
 Create a file named `server.js` with the following content:
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get('/', (req,res) => {
-    res.send('Hello from UKnowXChange');
+app.get("/", (req, res) => {
+  res.send("Hello from UKnowXChange");
 });
 
 app.listen(port, () => {
-    console.log(`App running on http://localhost:${port})
+  console.log(`App running on http://localhost:${port}`);
 });
 ```
 
@@ -62,7 +62,7 @@ Let's understand each command
 - EXPOSE: Informs to docker engine which network port is open at the container to receive connections
 - CMD: is the actual command invoking the app.
 
-## STEP 3: Build the image.
+## STEP 3: Build the image
 
 Now with the code tested, the next step is to build the image to use locally or to move it to a registry.
 
